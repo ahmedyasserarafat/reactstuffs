@@ -1,0 +1,25 @@
+.product-listing {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.product-listing .product-list-item {
+  padding: 10px 30px;
+  width: 200px;
+}
+
+.product-list-item .add-btn {
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  color: white;
+  background-color: green;
+}
+
+.product-list-item .remove-btn {
+  padding: 5px 10px;
+  color: white;
+  background-color: grey;
+}
